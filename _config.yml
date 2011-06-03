@@ -1,0 +1,3 @@
+server: true
+auto: true
+exclude: ['Rakefile', 'README', 'Gemfile', 'Gemfile.lock', 'config.rb']
