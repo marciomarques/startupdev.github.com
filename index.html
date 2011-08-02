@@ -23,7 +23,7 @@ layout: default
 						<ul id="main-tabs" style="display: none">
 							<li><a href="#o-que-fazemos"><strong>o que fazemos</strong><span>entenda nosso trabalho</span></a></li>
 							<li><a href="#como-funciona" id="li-a-como-funciona"><strong>como funciona</strong><span>metodologia adotada</span></a></li>
-							<li><a href="#quem-somos"><strong>quem somos</strong><span>sobre a dupla</span></a></li>
+							<li><a href="#quem-somos" id="li-a-quem-somos"><strong>quem somos</strong><span>sobre a dupla</span></a></li>
 							<li><a href="#contato"><strong>contato</strong><span>fale conosco</span></a></li>
 						</ul> <!-- end ul#main-tabs -->
 
@@ -118,6 +118,8 @@ layout: default
 									<p>Nosso contrato é bom para ambos os lados e te permite desistir antes de começar. Faça o <a href="/startupdev-minuta_contrato.doc" target="_blank">download do contrato</a> e entenda todos os detalhes.</p>
 								</div>
 								<div class="clear"></div>
+								<a href="#" class="join-today" id="show-service-advanced-features"><strong>Saiba mais</strong><span>como funciona</span></a>
+								
 						</div> <!-- end .tab-slide -->
 						<div class="tab-slide clearfix" id="service_advanced_features">
 
@@ -173,6 +175,11 @@ layout: default
 
 			    jQuery('#show-service-amazing-design').click(function(){
 			      jQuery("#li-a-como-funciona").click();
+			      return false;
+			    });
+
+			    jQuery('#show-service-advanced-features').click(function(){
+			      jQuery("#li-a-quem-somos").click();
 			      return false;
 			    });
 			  });
