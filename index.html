@@ -7,23 +7,20 @@ layout: default
 			<div class="container clearfix">
 				<div id="featured_content">
 					<div class="slide clearfix description-center"> 
-						<div class="description"> 
+						<div class="description">
 							<h2 class="title"><a href="#">1 reunião + 48 horas + R$ 4.800,00<br/> =<br/> <span>sistema funcionando</span></a></h2> 
-							<p>programação web para <span>startups</span></p> 
+							<p>programação web para <span>startups</span></p>
 							<a href="#" class="join-today" id="show-main-area"><strong>Saiba mais</strong><span>como funciona</span></a>
-						</div> <!-- end .description --> 
+						</div> <!-- end .description -->
 					</div> <!-- end .slide -->
 					</div> <!-- end #featured_content -->
-
-
-					<div id="controllers" class="clearfix" ></div>
 				</div> <!-- end .container -->
 			</div>	<!-- end #featured -->
 
 			<div id="main-area">
 				<div class="container clearfix">
 					<div id="services">
-						<ul id="main-tabs">
+						<ul id="main-tabs" style="display: none">
 							<li><a href="#o-que-fazemos"><strong>o que fazemos</strong><span>entenda nosso trabalho</span></a></li>
 							<li><a href="#como-funciona"><strong>como funciona</strong><span>metodologia adotada</span></a></li>
 							<li><a href="#quem-somos"><strong>quem somos</strong><span>sobre a dupla</span></a></li>
@@ -44,9 +41,7 @@ layout: default
 							</div> <!-- .content-area -->
 						</div> <!-- end .tab-slide -->
 						<div class="tab-slide clearfix" id="service_amazing_design">
-
-								<h3 class="title">entenda nosso <span>processo</span> de trabalho</h3>
-
+							<h3 class="title">entenda nosso <span>processo</span> de trabalho</h3>
               <div id="como-funciona-tabs" class="tabs-left" style="position: relative; ">
               	<ul class="et-tabs-control">
               		<li class="active"><a href="#">
@@ -166,10 +161,10 @@ layout: default
 			</div> <!-- end #main-area -->
 			
 			<script type="text/javascript">
-  			jQuery('#main-area').hide();
+  			jQuery('#services').hide();
 			  jQuery(document).ready(function(){
 			    jQuery('#show-main-area').click(function(){
-			      jQuery('#main-area').show();
+			      jQuery('#services').show();
 			      return false;
 			    });
 			  });

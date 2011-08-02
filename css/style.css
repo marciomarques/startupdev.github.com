@@ -92,7 +92,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 
 #center-highlight { background: url(../images/center-highlight.png) no-repeat center top; }
 	.container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
-	#header .container { width: 860px; padding-top: 37px; padding-bottom: 52px; }
+	#header .container { width: 860px; padding-top: 10px; padding-bottom: 10px; }
 	body#home #header .container { padding-bottom: 70px; }
 		#logo { float: left; /*margin-top: 37px; */ margin-right: 29px; }
 		ul#top-menu { margin-top: 23px; float: left; font-weight: bold; }
@@ -190,7 +190,7 @@ display:block; height:29px; padding-left: 15px; }
 /*--------------[FEATURED SLIDER]-----------------*/
 /*------------------------------------------------*/
 
-#featured { margin-bottom: 125px; }				
+#featured { margin-bottom: 25px; }				
 	.featured-img { display:block; float:left; padding:4px; position:relative; }
 		.featured-img span.overlay { background:url(../images/box-overlay.png) no-repeat; display:block; height:292px; left:-1px; position:absolute; top:-1px; width:451px; }
 	#featured .description { float: right; width: 466px; padding-top: 23px; }
