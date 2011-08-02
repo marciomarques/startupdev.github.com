@@ -93,7 +93,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 #center-highlight { min-height: 759px; background: url(../images/center-highlight.png) no-repeat center top; }
 	.container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
 	#header .container { width: 860px; padding-top: 10px; padding-bottom: 10px; }
-	body#home #header .container { padding-bottom: 70px; }
+	body#home #header .container { padding-bottom: 160px; }
 		#logo { float: left; /*margin-top: 37px; */ margin-right: 29px; }
 		ul#top-menu { margin-top: 23px; float: left; font-weight: bold; }
 			#search { /*float: right;*/ margin-top: 33px; padding-left:5px; }

@@ -173,7 +173,9 @@ layout: default
 			  jQuery(document).ready(function(){
 			    jQuery('#show-main-area').click(function(){
 			      jQuery('#main-area').show();
-			      jQuery(this).css("visibility","hidden");
+			      jQuery('#header div.container').css('padding-bottom', '15px');
+			      jQuery('#featured').css('margin-bottom', '50px');
+			      jQuery(this).hide();
 			      return false;
 			    });
 
