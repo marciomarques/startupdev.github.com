@@ -90,7 +90,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 /*---------------[MAIN LAYOUT INFO]---------------*/
 /*------------------------------------------------*/
 
-#center-highlight { min-height: 600px; background: url(../images/center-highlight.png) no-repeat center top; }
+#center-highlight { min-height: 759px; background: url(../images/center-highlight.png) no-repeat center top; }
 	.container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
 	#header .container { width: 860px; padding-top: 10px; padding-bottom: 10px; }
 	body#home #header .container { padding-bottom: 160px; }
