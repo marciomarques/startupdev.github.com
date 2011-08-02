@@ -23,6 +23,7 @@ layout: default
       <ul id="main-tabs" style="display: none">
         <li><a href="#o-que-fazemos"><strong>o que fazemos</strong><span>entenda nosso trabalho</span></a></li>
         <li><a href="#como-funciona" id="li-a-como-funciona"><strong>como funciona</strong><span>metodologia adotada</span></a></li>
+        <li><a href="#faq" id="li-a-faq"><strong>como funciona</strong><span>metodologia adotada</span></a></li>
         <li><a href="#quem-somos" id="li-a-quem-somos"><strong>quem somos</strong><span>sobre a dupla</span></a></li>
         <li><a href="#contato" id="li-a-contato"><strong>contato</strong><span>fale conosco</span></a></li>
       </ul> <!-- end ul#main-tabs -->
@@ -30,17 +31,13 @@ layout: default
       <div class="tab-slide clearfix" id="service_the_best_design">
         <div class="content-area clearfix">
           <h3 class="title">desenvolvimento <span>expresso</span> de aplicativos web</h3>
-          <div class="one_half">                
-            <p>Nós somos capazes de desenvolver aplicativos funcionais em pouco tempo.</p>
-            <p>Fizemos projeto test-drive para provar que é possível realizar em 48horas de desenvolvimento um produto completo e funcional.</p>
-            <p>Veja como ficou: <a href="http://ideias.startupdev.com.br" target="_blank">http://ideias.startupdev.com.br</a></p>
-            <p>Gravamos alguns <a href="http://vimeo.com/user5307041/videos" target="_blank">vídeos de como funciona o desenvolvimento</a>.</p>
-            <iframe src="http://player.vimeo.com/video/24853038?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="400" height="300" frameborder="0"></iframe>
-          </div>
-          <div class="one_half last">
-            <a href="#" class="big-button bigorange" id="show-service-amazing-design"><span>Entenda como Funciona</span></a>
-            <a href="#" class="big-button bigblue show-service-awesome-support"><span>Entre em Contato</span></a>
-          </div>
+           <p>Nós somos capazes de desenvolver aplicativos funcionais em pouco tempo.</p>
+           <p>Fizemos projeto test-drive para provar que é possível realizar em 48horas de desenvolvimento um produto completo e funcional.</p>
+           <p>Veja como ficou: <a href="http://ideias.startupdev.com.br" target="_blank">http://ideias.startupdev.com.br</a></p>
+           <p>Gravamos alguns <a href="http://vimeo.com/user5307041/videos" target="_blank">vídeos de como funciona o desenvolvimento</a>.</p>
+           <iframe src="http://player.vimeo.com/video/24853038?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="400" height="300" frameborder="0"></iframe>
+           <p><a href="#" class="readmore" id="show-service-amazing-design"><span>Entenda como Funciona</span></a></p>
+           <p><a href="#" class="small-button smallblue show-service-awesome-support"><span>Entre em Contato</span></a></p>
         </div> <!-- .content-area -->
       </div> <!-- end .tab-slide -->
       <div class="tab-slide clearfix" id="service_amazing_design">
@@ -102,6 +99,8 @@ layout: default
         <script type='text/javascript'> 
          jQuery('#como-funciona-tabs .et-tabs-content').et_shortcodes_switcher({linksNav: '#como-funciona-tabs .et-tabs-control li a', findParent: true, fx: 'fade', auto: false, autoSpeed: '5000'});
         </script>
+        <a href="#" class="readmore show-service-faq"><span>Tire suas dúvidas</span></a>
+        <a href="#" class="small-button smallblue show-service-awesome-support"><span>Entre em Contato</span></a>
       </div> <!-- end .tab-slide -->
       <div class="tab-slide clearfix" id="service_faq">
         <h3 class="title">respondemos todas as <span>suas dúvidas</span></h3>
@@ -118,8 +117,8 @@ layout: default
           <p>Nosso contrato é bom para ambos os lados e te permite desistir antes de começar. Faça o <a href="/startupdev-minuta_contrato.doc" target="_blank">download do contrato</a> e entenda todos os detalhes.</p>
         </div>
         <div class="clear"></div>
-        <a href="#" class="big-button bigorange" id="show-service-advanced-features"><span>Conheça a equipe</span></a>
-        <a href="#" class="big-button bigblue show-service-awesome-support"><span>Entre em Contato</span></a>
+        <a href="#" class="readmore" id="show-service-advanced-features"><span>Conheça a equipe</span></a>
+        <a href="#" class="small-button smallblue show-service-awesome-support"><span>Entre em Contato</span></a>
       </div> <!-- end .tab-slide -->
       <div class="tab-slide clearfix" id="service_advanced_features">
         <div class="content-area clearfix">
@@ -150,12 +149,12 @@ layout: default
               <strong>Twitter:</strong> <a href="http://twitter.com/smergulhao">@smergulhao</a><br/>
             </p>
           </div>
-          <a href="#" class="big-button bigblue show-service-awesome-support"><span>Entre em contato</span></a>
+          <a href="#" class="readmore show-service-awesome-support"><span>Entre em contato</span></a>
         </div> <!-- .content-area -->
       </div> <!-- end .tab-slide -->
       <div class="tab-slide clearfix" id="service_awesome_support">
         <div class="content-area clearfix">
-          <h3 class="title">quer <span>contratar</span>?</h3>
+          <h3 class="title">será um <span>prazer</span> lhe atender</h3>
           <iframe height="634" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="http://bielsystems.wufoo.com/embed/z7x1k9/"><a href="http://bielsystems.wufoo.com/forms/z7x1k9/" title="Contato Startupdev" rel="nofollow">Fill out my Wufoo form!</a></iframe>
         </div> <!-- .content-area -->
       </div> <!-- end .tab-slide -->
@@ -186,6 +185,11 @@ layout: default
 
     jQuery('.show-service-awesome-support').click(function(){
       jQuery("#li-a-contato").click();
+      return false;
+    });
+
+    jQuery('.show-service-faq').click(function(){
+      jQuery("#li-a-faq").click();
       return false;
     });
   });
