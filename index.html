@@ -22,7 +22,7 @@ layout: default
 					<div id="services">
 						<ul id="main-tabs" style="display: none">
 							<li><a href="#o-que-fazemos"><strong>o que fazemos</strong><span>entenda nosso trabalho</span></a></li>
-							<li><a href="#como-funciona"><strong>como funciona</strong><span>metodologia adotada</span></a></li>
+							<li><a href="#como-funciona" id="li-a-como-funciona"><strong>como funciona</strong><span>metodologia adotada</span></a></li>
 							<li><a href="#quem-somos"><strong>quem somos</strong><span>sobre a dupla</span></a></li>
 							<li><a href="#contato"><strong>contato</strong><span>fale conosco</span></a></li>
 						</ul> <!-- end ul#main-tabs -->
@@ -38,6 +38,9 @@ layout: default
 								<p>Gravamos alguns <a href="http://vimeo.com/user5307041/videos" target="_blank">vídeos de como funciona o desenvolvimento</a>.</p>
 								<iframe src="http://player.vimeo.com/video/24853038?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="400" height="300" frameborder="0"></iframe>
 								<br/>
+								
+								<a href="#" class="join-today" id="show-service-amazing-design"><strong>Saiba mais</strong><span>como funciona</span></a>
+								
 							</div> <!-- .content-area -->
 						</div> <!-- end .tab-slide -->
 						<div class="tab-slide clearfix" id="service_amazing_design">
@@ -165,6 +168,11 @@ layout: default
 			  jQuery(document).ready(function(){
 			    jQuery('#show-main-area').click(function(){
 			      jQuery('#main-area').show();
+			      return false;
+			    });
+
+			    jQuery('#show-service-amazing-design').click(function(){
+			      jQuery("#li-a-como-funciona").click();
 			      return false;
 			    });
 			  });
