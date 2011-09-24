@@ -8,7 +8,7 @@ body {
 }
 
 p {
-  margin: 1.4em 0;
+  margin: 1em 0;
   line-height: 1.4;
 }
 
@@ -27,13 +27,17 @@ p {
   color: #000;
 }
 
+abbr {
+  border-bottom: 1px dotted #333;
+  font-weight: bold;
+  cursor: help;
+}
+
 /* HEADING */
 
 h1,
 h2,
-h3,
-h4 {
-  margin: .4em 0 .2em;
+h3 {
   font-family: 'Marvel', sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -41,7 +45,7 @@ h4 {
   color: #fff;
   line-height: 1.4;
   text-align: center;
-  text-shadow: 1px 1px 5px #000;
+  text-shadow: 1px 1px 5px #061033;
 }
 
 h1 {
@@ -51,14 +55,19 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4em !important;
-  line-height: 1.2;
-  color: #a79280;
+  margin: .4em 0 .4em;
+  font-size: 2em;
+  color: #3c7499;
+}
+
+section[role="main"] #main-content h2 {
+  text-shadow: 0 1px 0 #fff;
 }
 
 h3 {
-  font-size: 1.4em;
-  color: #696969;
+  margin: 1.2em auto .4em;
+  font-size: 2em;
+  color: #fff;
 }
 
 /* WRAP */
@@ -103,6 +112,7 @@ header nav {
 }
 
 header nav ul {
+  margin: 0 0 15px 0;
   height: 112px;
 }
 
@@ -205,6 +215,64 @@ header nav ul li#launch a:active {
 
 section[role="main"] {
   display: block;
+}
+
+section[role="main"] #main-content {
+  margin: 0 0 20px 0;
+  padding: 20px;
+  background: transparent url("../images/bg-content.png");
+  border: 2px dashed #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+section[role="main"] #main-content ol li,
+section[role="main"] #main-content ul li,
+section[role="main"] #main-content p {
+  font-size: 1.2em;
+  color: #333;
+  text-shadow: 0 1px 0 #fff;
+}
+
+section[role="main"] #main-content .video ol li,
+section[role="main"] #main-content .video ul li,
+section[role="main"] #main-content .video p {
+  margin-left: 330px;
+}
+
+section[role="main"] #main-content ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+section[role="main"] #main-content ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+section[role="main"] #main-content ol li {
+  margin: 1em 0;
+  line-height: 1.4;
+}
+
+section[role="main"] #main-content #video-idea {
+  width: 310px;
+  height: 210px;
+  margin: 0 20px 10px 0;
+  float: left;
+  background-color: #fff;
+}
+
+section[role="main"] #main-content a {
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  border-bottom: 1px dashed #000;
+}
+
+section[role="main"] #main-content a:hover {
+  color: #3c7499;
+  border-bottom: 1px solid #3c7499;
 }
 
 /* FOOTER */
