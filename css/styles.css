@@ -136,7 +136,8 @@ header nav ul li#idea a {
   background: transparent url("../images/menu.png") no-repeat 0 12px;
 }
 
-header nav ul li#idea a:hover {
+header nav ul li#idea a:hover,
+header nav ul li#idea.current a {
   background: transparent url("../images/menu.png") no-repeat 0 -217px;
 }
 
@@ -149,7 +150,8 @@ header nav ul li#contract a {
   background: transparent url("../images/menu.png") no-repeat -387px 12px;
 }
 
-header nav ul li#contract a:hover {
+header nav ul li#contract a:hover,
+header nav ul li#contract.current a {
   background: transparent url("../images/menu.png") no-repeat -387px -217px;
 }
 
@@ -162,7 +164,8 @@ header nav ul li#meeting a {
   background: transparent url("../images/menu.png") no-repeat -108px 12px;
 }
 
-header nav ul li#meeting a:hover {
+header nav ul li#meeting a:hover,
+header nav ul li#meeting.current a {
   background: transparent url("../images/menu.png") no-repeat -108px -217px;
 }
 
@@ -175,7 +178,8 @@ header nav ul li#time a {
   background: transparent url("../images/menu.png") no-repeat -245px 12px;
 }
 
-header nav ul li#time a:hover {
+header nav ul li#time a:hover,
+header nav ul li#time.current a {
   background: transparent url("../images/menu.png") no-repeat -245px -217px;
 }
 
@@ -188,7 +192,8 @@ header nav ul li#launch a {
   background: transparent url("../images/menu.png") no-repeat -554px 12px;
 }
 
-header nav ul li#launch a:hover {
+header nav ul li#launch a:hover,
+header nav ul li#launch.current a {
   background: transparent url("../images/menu.png") no-repeat -554px -217px;
 }
 
