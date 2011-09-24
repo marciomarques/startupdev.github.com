@@ -96,7 +96,7 @@ header p {
   font-size: 1.4em;
   text-align: center;
   width: 500px;
-  margin: 1em auto 1.4em;
+  margin: 1em auto;
 }
 
 header nav {
@@ -104,17 +104,97 @@ header nav {
 }
 
 header nav ul {
-  height: 100px;
+  height: 112px;
 }
 
 header nav ul li {
-  width: 95px;
+  height: 112px;
   float: left;
 }
 
 header nav ul li.plus,
 header nav ul li#equal {
-  width: 50px;
+  width: 40px;
+  text-indent: -9999px;
+}
+
+header nav ul li.plus {
+  background: transparent url("../images/menu.png") no-repeat -16px -330px;
+}
+
+header nav ul li#equal {
+  background: transparent url("../images/menu.png") no-repeat -66px -328px;
+}
+
+header nav ul li a {
+  display: block;
+  height: 112px;
+  text-indent: -9999px;
+}
+
+header nav ul li#idea a {
+  width: 79px;
+  background: transparent url("../images/menu.png") no-repeat 0 12px;
+}
+
+header nav ul li#idea a:hover {
+  background: transparent url("../images/menu.png") no-repeat 0 -217px;
+}
+
+header nav ul li#idea a:active {
+  background: transparent url("../images/menu.png") no-repeat 0 -97px;
+}
+
+header nav ul li#contract a {
+  width: 114px;
+  background: transparent url("../images/menu.png") no-repeat -387px 12px;
+}
+
+header nav ul li#contract a:hover {
+  background: transparent url("../images/menu.png") no-repeat -387px -217px;
+}
+
+header nav ul li#contract a:active {
+  background: transparent url("../images/menu.png") no-repeat -387px -97px;
+}
+
+header nav ul li#meeting a {
+  width: 101px;
+  background: transparent url("../images/menu.png") no-repeat -108px 12px;
+}
+
+header nav ul li#meeting a:hover {
+  background: transparent url("../images/menu.png") no-repeat -108px -217px;
+}
+
+header nav ul li#meeting a:active {
+  background: transparent url("../images/menu.png") no-repeat -108px -97px;
+}
+
+header nav ul li#time a {
+  width: 106px;
+  background: transparent url("../images/menu.png") no-repeat -245px 12px;
+}
+
+header nav ul li#time a:hover {
+  background: transparent url("../images/menu.png") no-repeat -245px -217px;
+}
+
+header nav ul li#time a:active {
+  background: transparent url("../images/menu.png") no-repeat -245px -97px;
+}
+
+header nav ul li#launch a {
+  width: 120px;
+  background: transparent url("../images/menu.png") no-repeat -554px 12px;
+}
+
+header nav ul li#launch a:hover {
+  background: transparent url("../images/menu.png") no-repeat -554px -217px;
+}
+
+header nav ul li#launch a:active {
+  background: transparent url("../images/menu.png") no-repeat -554px -97px;
 }
 
 /* SECTION */
