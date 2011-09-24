@@ -34,13 +34,12 @@ h2,
 h3,
 h4 {
   margin: .4em 0 .2em;
-  font-family: 'Pompiere', sans-serif;
+  font-family: 'Marvel', sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   word-spacing: 8px;
   color: #fff;
   line-height: 1.4;
-  font-weight: 100;
   text-align: center;
   text-shadow: 1px 1px 5px #000;
 }
