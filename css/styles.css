@@ -60,7 +60,7 @@ h2 {
   color: #3c7499;
 }
 
-section[role="main"] #main-content h2 {
+section[role="main"] article h2 {
   text-shadow: 0 1px 0 #fff;
 }
 
@@ -217,8 +217,26 @@ section[role="main"] {
   display: block;
 }
 
-section[role="main"] #main-content {
-  margin: 0 0 20px 0;
+section[role="main"] #quick-signup {
+  text-align: center;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+section[role="main"] #quick-signup a {
+  font-size: 1.4em;
+  margin: 0 10px;
+  color: #fff;
+  text-shadow: 0 1px 2px #000;
+}
+
+section[role="main"] #quick-signup a:hover {
+  color: #d0e0eb;
+}
+
+section[role="main"] article {
+  display: none;
+  margin: 0;
   padding: 20px;
   background: transparent url("../images/bg-content.png");
   border: 2px dashed #fff;
@@ -227,36 +245,36 @@ section[role="main"] #main-content {
   border-radius: 4px;
 }
 
-section[role="main"] #main-content ol li,
-section[role="main"] #main-content ul li,
-section[role="main"] #main-content p {
+section[role="main"] article ol li,
+section[role="main"] article ul li,
+section[role="main"] article p {
   font-size: 1.2em;
   color: #333;
   text-shadow: 0 1px 0 #fff;
 }
 
-section[role="main"] #main-content .video ol li,
-section[role="main"] #main-content .video ul li,
-section[role="main"] #main-content .video p {
+section[role="main"] article.video ol li,
+section[role="main"] article.video ul li,
+section[role="main"] article.video p {
   margin-left: 330px;
 }
 
-section[role="main"] #main-content ol {
+section[role="main"] article ol {
   list-style-type: decimal;
   list-style-position: inside;
 }
 
-section[role="main"] #main-content ul {
+section[role="main"] article ul {
   list-style-type: disc;
   list-style-position: inside;
 }
 
-section[role="main"] #main-content ol li {
+section[role="main"] article ol li {
   margin: 1em 0;
   line-height: 1.4;
 }
 
-section[role="main"] #main-content #video-idea {
+section[role="main"] article #video-idea {
   width: 310px;
   height: 210px;
   margin: 0 20px 10px 0;
@@ -264,15 +282,58 @@ section[role="main"] #main-content #video-idea {
   background-color: #fff;
 }
 
-section[role="main"] #main-content a {
+section[role="main"] article a {
   color: #000;
   text-shadow: 0 1px 0 #fff;
   border-bottom: 1px dashed #000;
 }
 
-section[role="main"] #main-content a:hover {
+section[role="main"] article a:hover {
   color: #3c7499;
   border-bottom: 1px solid #3c7499;
+}
+
+section[role="main"] article nav {
+  display: block;
+  height: 45px;
+  clear: both;
+}
+
+section[role="main"] article nav p {
+  float: right;
+}
+
+/* BUTTONS */
+
+.button {
+  background-color: #3c7499;
+  color: #fff !important;
+  padding: 10px 20px;
+  border: none !important;
+  text-shadow: none !important;
+  -moz-box-shadow: 0 1px 2px #000;
+  -webkit-box-shadow: 0 1px 2px #000;
+  box-shadow: 0 1px 2px #000;
+}
+
+.button:hover {
+  background-color: #2b6388;
+}
+
+.button:active {
+  -moz-box-shadow: inset 0 1px 2px #000;
+  -webkit-box-shadow: inset 0 1px 2px #000;
+  box-shadow: inset 0 1px 2px #000;
+}
+
+.button.highlight {
+  background-color: #efca36;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.button.highlight:hover {
+  background-color: #deb925;
 }
 
 /* FOOTER */
