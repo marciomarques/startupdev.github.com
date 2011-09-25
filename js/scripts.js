@@ -1,5 +1,5 @@
 var slider = {
-  init: function(e) {
+  init: function() {
     slider.scrollToNav();
     slider.hideAll();
     $(".step:first").addClass("current");
@@ -18,6 +18,10 @@ var slider = {
   },
   scrollToNav: function() {
     $.scrollTo( $("header p"), 800 );
+  },
+  destroy: function() {
+    slider.hideAll();
+    $("#quick-signup").show();
   }
 }
 
@@ -31,6 +35,11 @@ $(function() {
   $("#see-more").click(function(e) {
     e.preventDefault();
     slider.init();
+  });
+
+  $("#logo a").click(function(e) {
+    e.preventDefault();
+    slider.destroy();
   });
 
   $(".step a").each(function(i) {
