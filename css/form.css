@@ -1,6 +1,5 @@
 /* WUFOO FORM */
 
-.container,
 form {
   color: #fff !important;
 }
@@ -8,8 +7,8 @@ form {
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
-form textarea,
-form .medium {
+form textarea.textarea,
+form input[type="tel"] {
   padding: 8px;
   font: 1.2em 'Lucida Console', Monaco, monospace;
   background: #fff;
@@ -17,9 +16,10 @@ form .medium {
   width: 300px !important;
 }
 
-form .fn,
-form .ln {
-  width: 140px;
+form textarea,
+form textarea.textarea,
+form textarea.medium {
+  padding: 0;
 }
 
 form textarea {
