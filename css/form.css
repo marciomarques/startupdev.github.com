@@ -1,7 +1,8 @@
 /* WUFOO FORM */
 
-.container {
-  color: #fff;
+.container,
+form {
+  color: #fff !important;
 }
 
 form input[type="text"],
