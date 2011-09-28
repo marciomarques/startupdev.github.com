@@ -8,12 +8,18 @@ form {
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
-form textarea {
+form textarea,
+form .medium {
   padding: 8px;
   font: 1.2em 'Lucida Console', Monaco, monospace;
   background: #fff;
   border: 1px solid #3c7499;
   width: 300px !important;
+}
+
+form .fn,
+form .ln {
+  width: 140px;
 }
 
 form textarea {
