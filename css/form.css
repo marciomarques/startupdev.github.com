@@ -2,14 +2,12 @@
 
 form {
   color: #fff !important;
-  padding: 0 20px 0 0;
 }
 
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
-form textarea,
-form .medium {
+form textarea {
   padding: 8px;
   font: 1.2em 'Lucida Console', Monaco, monospace;
   background: #fff;
@@ -17,9 +15,8 @@ form .medium {
   width: 300px !important;
 }
 
-form .fn,
-form .ln {
-  width: 140px;
+form textarea {
+  width: 90% !important;
 }
 
 form textarea {
