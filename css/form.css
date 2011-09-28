@@ -1,0 +1,63 @@
+/* WUFOO FORM */
+
+.container {
+  color: #fff;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+  padding: 8px;
+  font: 1.2em 'Lucida Console', Monaco, monospace;
+  background: #fff;
+  border: 1px solid #3c7499;
+}
+
+form textarea {
+  background: -moz-linear-gradient(top, #e9e9e9 0%, #fff 6%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9e9e9), color-stop(6%,#fff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e9e9e9 0%,#fff 6%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e9e9e9 0%,#fff 6%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #e9e9e9 0%,#fff 6%); /* IE10+ */
+  background: linear-gradient(top, #e9e9e9 0%,#fff 6%); /* W3C */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  background: -moz-linear-gradient(top, #e9e9e9 0%, #fff 20%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9e9e9), color-stop(20%,#fff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e9e9e9 0%,#fff 20%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e9e9e9 0%,#fff 20%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #e9e9e9 0%,#fff 20%); /* IE10+ */
+  background: linear-gradient(top, #e9e9e9 0%,#fff 20%); /* W3C */
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form textarea:focus {
+  border: 1px solid #efca36;
+}
+
+form input[type="submit"] {
+  background-color: #3c7499;
+  color: #fff !important;
+  padding: 10px 20px;
+  border: none !important;
+  text-shadow: none !important;
+  -moz-box-shadow: 0 1px 2px #000;
+  -webkit-box-shadow: 0 1px 2px #000;
+  box-shadow: 0 1px 2px #000;
+}
+
+form input[type="submit"]:hover {
+  background-color: #2b6388;
+}
+
+form input[type="submit"]:active {
+  -moz-box-shadow: inset 0 1px 2px #000;
+  -webkit-box-shadow: inset 0 1px 2px #000;
+  box-shadow: inset 0 1px 2px #000;
+}
