@@ -1,7 +1,8 @@
 /* WUFOO FORM */
 
-.container {
-  color: #fff;
+.container,
+form {
+  color: #fff !important;
 }
 
 form input[type="text"],
@@ -12,6 +13,7 @@ form textarea {
   font: 1.2em 'Lucida Console', Monaco, monospace;
   background: #fff;
   border: 1px solid #3c7499;
+  width: 300px !important;
 }
 
 form textarea {
