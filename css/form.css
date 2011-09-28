@@ -16,7 +16,8 @@ form .medium {
   width: 300px !important;
 }
 
-form textarea {
+form textarea,
+form textarea.medium {
   width: 90% !important;
 }
 
