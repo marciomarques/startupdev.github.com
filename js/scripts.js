@@ -26,6 +26,10 @@ var slider = {
 }
 
 $(function() {
+  $("a[rel^='external']").each(function() {
+    $(this).attr("target","_blank");
+  });
+
   $(".step a").tipsy({gravity: 's'});
 
   $(".highlight").click(function() {
@@ -67,5 +71,11 @@ $(function() {
     $(this).addClass("hover");
   }).mouseout(function() {
     $(this).removeClass("hover");
-  });
+  }).click(function() {
+    var $link = $(this).children("p").children("a").attr("href");
+    if ($link) {
+      window.open($link);
+      return false;
+    }
+  });;
 });
