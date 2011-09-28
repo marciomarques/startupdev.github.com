@@ -3,7 +3,7 @@ var slider = {
     slider.scrollToNav();
     slider.hideAll();
     $(".step:first").addClass("current");
-    $("article:first").slideDown();
+    $("article:first").slideDown().css("display", "block");
   },
   hideAll: function() {
     $("#quick-signup").hide();
@@ -14,7 +14,7 @@ var slider = {
     slider.scrollToNav();
     slider.hideAll();
     element.addClass("current");
-    $("#content-" + element.attr("id")).slideDown("slow");
+    $("#content-" + element.attr("id")).slideDown("slow").css("display", "block");
   },
   scrollToNav: function() {
     $.scrollTo( $("header p"), 800 );
