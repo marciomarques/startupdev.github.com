@@ -388,6 +388,11 @@ section[role="main"] ul#projects li.confidential {
   cursor: default;
 }
 
+#form {
+  margin: auto;
+  width: 330px;
+}
+
 /* BUTTONS */
 
 .button {
