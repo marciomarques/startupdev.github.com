@@ -355,11 +355,11 @@ section[role="main"] article nav p {
 }
 
 section[role="main"] ul#projects {
-  height: 164px;
+  height: 320px;
 }
 
 section[role="main"] ul#projects li {
-  margin: 0 2px;
+  margin: 2px;
   padding: 0 9px;
   width: 147px;
   text-align: center;
@@ -382,6 +382,7 @@ section[role="main"] ul#projects li.hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 2px;
 }
 
 section[role="main"] ul#projects li.confidential {
