@@ -120,7 +120,7 @@ header #logo a {
   background: transparent url("../images/logo-startupdev.png") no-repeat 0 0;
 }
 
-header p {
+header p, p.highlight {
   color: #fff;
   font-size: 1.4em;
   text-align: center;
