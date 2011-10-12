@@ -1,4 +1,4 @@
 source 'http://rubygems.org'
 
-gem 'jekyll', :git => 'git@github.com:mergulhao/jekyll.git'
-gem 'compass'
+gem 'jekyll', '0.11.0'
+gem 'compass', '0.11.1'
