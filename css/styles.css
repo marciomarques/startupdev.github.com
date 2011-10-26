@@ -391,17 +391,26 @@ section[role="main"] ul#projects li.hover {
   margin: 0 2px;
 }
 
-section[role="main"] ul#projects li.confidential {
-  cursor: default;
-}
-
-section[role="main"] ul#projects li .coming-soon {
+section[role="main"] ul#projects li .confidential,
+section[role="main"] ul#projects li .coming-soon,
+section[role="main"] ul#projects li .facebook {
   position: absolute;
   text-indent: -9999px;
   margin: 1px 0 0 1px;
   width: 142px;
   height: 100px;
+}
+
+section[role="main"] ul#projects li .confidential {
+  background: transparent url("../images/confidencial.png") no-repeat bottom right;
+}
+
+section[role="main"] ul#projects li .coming-soon {
   background: transparent url("../images/em-breve.png") no-repeat bottom right;
+}
+
+section[role="main"] ul#projects li .facebook {
+  background: transparent url("../images/facebook.png") no-repeat bottom right;
 }
 
 #form {

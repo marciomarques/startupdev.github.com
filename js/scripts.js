@@ -69,8 +69,16 @@ $(function() {
 
   $("ul#projects li").mouseover(function() {
     $(this).addClass("hover");
+    var $link = $(this).children("p").children("a").attr("href");
+    if (!$link) {
+      $(this).css("cursor","default");
+    }
   }).mouseout(function() {
     $(this).removeClass("hover");
+    var $link = $(this).children("p").children("a").attr("href");
+    if (!$link) {
+      $(this).css("cursor","default");
+    }
   }).click(function() {
     var $link = $(this).children("p").children("a").attr("href");
     if ($link) {
