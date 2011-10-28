@@ -367,13 +367,16 @@ section[role="main"] ul#projects li {
 }
 
 section[role="main"] ul#projects li p {
-  margin: 1em 0;
+  margin: 1em auto;
+  width: 144px;
+  position: relative;
 }
 
 section[role="main"] ul#projects li a {
   display: block;
   width: 142px;
   height: 100px;
+  position: relative;
 }
 
 section[role="main"] ul#projects li img {
@@ -396,7 +399,8 @@ section[role="main"] ul#projects li .coming-soon,
 section[role="main"] ul#projects li .facebook {
   position: absolute;
   text-indent: -9999px;
-  margin: 1px 0 0 1px;
+  top: 1px;
+  left: 1px;
   width: 142px;
   height: 100px;
 }
