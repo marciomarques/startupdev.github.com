@@ -354,10 +354,6 @@ section[role="main"] article nav p {
   float: right;
 }
 
-section[role="main"] ul#projects {
-  height: 320px;
-}
-
 section[role="main"] ul#projects li {
   margin: 2px;
   padding: 0 9px;
@@ -618,4 +614,16 @@ footer {
 
 #calendar table tr td ul li {
   font-size: .8em;
+}
+
+/* CLEARFIX */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
 }
