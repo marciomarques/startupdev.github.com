@@ -608,6 +608,10 @@ footer {
   text-align: center;
 }
 
+#calendar table tr td .day-content .unavailable {
+  color: #c66;
+}
+
 #calendar table tr td ul {
   list-style-type: none;
 }
