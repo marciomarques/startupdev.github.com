@@ -608,7 +608,7 @@ footer {
   text-align: center;
 }
 
-#calendar table tr td .day-content .unavailable {
+#calendar table tr td.unavailable .day-content {
   color: #c66;
 }
 
