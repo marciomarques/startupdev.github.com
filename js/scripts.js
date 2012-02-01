@@ -17,7 +17,7 @@ var slider = {
     $("#content-" + element.attr("id")).slideDown("slow").css("display", "block");
   },
   scrollToNav: function() {
-    $.scrollTo( $("header nav"), 800 );
+    $.scrollTo( $("header h1"), 800 );
   },
   destroy: function() {
     slider.hideAll();
