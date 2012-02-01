@@ -17,7 +17,7 @@ var slider = {
     $("#content-" + element.attr("id")).slideDown("slow").css("display", "block");
   },
   scrollToNav: function() {
-    $.scrollTo( $("header p"), 800 );
+    $.scrollTo( $("header nav"), 800 );
   },
   destroy: function() {
     slider.hideAll();
@@ -26,6 +26,7 @@ var slider = {
 }
 
 $(function() {
+	
   $("a[rel^='external']").each(function() {
     $(this).attr("target","_blank");
   });
@@ -85,5 +86,18 @@ $(function() {
       window.open($link);
       return false;
     }
-  });;
+  });
+
+	$('#queue')
+		.queue(function() { $("#idea a").trigger('mouseover'); $(this).dequeue(); }).delay(1000)
+		.queue(function() { $("#idea a").trigger('mouseout'); $(this).dequeue(); }).delay(1000)
+		.queue(function() { $("#team a").trigger('mouseover'); $(this).dequeue(); }).delay(1000)
+		.queue(function() { $("#team a").trigger('mouseout'); $(this).dequeue(); }).delay(1000)
+		.queue(function() { $("#time a").trigger('mouseover'); $(this).dequeue(); }).delay(1000)
+		.queue(function() { $("#time a").trigger('mouseout'); $(this).dequeue(); }).delay(1000)
+		.queue(function() { $("#contract a").trigger('mouseover'); $(this).dequeue(); }).delay(1000)
+		.queue(function() { $("#contract a").trigger('mouseout'); $(this).dequeue(); }).delay(1000)
+		.queue(function() { $("#launch a").trigger('mouseover'); $(this).dequeue(); }).delay(1000)
+		.queue(function() { $("#launch a").trigger('mouseout'); $(this).dequeue(); }).delay(1000)
+
 });
