@@ -42,7 +42,7 @@ $(function() {
     slider.init();
   });
 
-  $("#logo a").click(function(e) {
+  $("body#home").find("#logo a").click(function(e) {
     e.preventDefault();
     slider.destroy();
   });
