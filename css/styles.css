@@ -270,6 +270,31 @@ section[role="main"] article#content-workshop {
   display: block;
 }
 
+section[role="main"] article #when ul {
+  list-style-type: none;
+}
+
+section[role="main"] article #when ul li,
+section[role="main"] article #price {
+  font-size: 1.2em;
+  color: #333;
+  text-shadow: 1px 1px 3px #061033;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section[role="main"] article #price {
+  display: block;
+  font-size: 1.8em;
+}
+
+section[role="main"] article #when p,
+section[role="main"] article #how-much {
+  text-align: center;
+}
+
 section[role="main"] article ol li,
 section[role="main"] article ul li,
 section[role="main"] article p {
@@ -526,14 +551,14 @@ footer {
   font-size: 1.1em;
   float: left;
 }
- 
+
 #calendar nav ul li a {
   display: block;
   width: 15px;
   height: 18px;
   text-indent: -9999px;
 }
- 
+
 #calendar nav ul li a#prev-weeks {
   background: transparent url(/images/nav-arrows.png) no-repeat 0 0;
 }
@@ -541,7 +566,7 @@ footer {
 #calendar nav ul li a#prev-weeks:hover {
   background: transparent url(/images/nav-arrows.png) no-repeat 0 -20px;
 }
- 
+
 #calendar nav ul li a#next-weeks {
   background: transparent url(/images/nav-arrows.png) no-repeat -18px 0;
 }
