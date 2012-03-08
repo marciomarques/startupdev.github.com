@@ -266,6 +266,10 @@ section[role="main"] article {
   border-radius: 4px;
 }
 
+section[role="main"] article#content-workshop {
+  display: block;
+}
+
 section[role="main"] article ol li,
 section[role="main"] article ul li,
 section[role="main"] article p {
