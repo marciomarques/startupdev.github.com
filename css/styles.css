@@ -33,6 +33,16 @@ abbr {
   cursor: help;
 }
 
+a#treinatom {
+  position: absolute;
+  top: 0;
+  right: 46%;
+  width: 90px;
+  height: 83px;
+  background: transparent url("../images/treinatom-logo.png") no-repeat 0 0;
+  text-indent: -9999px;
+}
+
 /* HEADING */
 
 h1,
