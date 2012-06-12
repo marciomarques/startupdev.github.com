@@ -22,15 +22,30 @@ img {
   border: none;
 }
 
+h2 {
+  color: #FED247;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
 /*
 +----------------------------------------------------------------+
   Wrapper
 +----------------------------------------------------------------+
 */
 #wrapper {
-  margin: 0 auto;
   padding: 12px 0 0;
-  width: 960px;
 }
 
 /*
@@ -39,7 +54,7 @@ img {
 +----------------------------------------------------------------+
 */
 header {
-  height:250px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -51,21 +66,49 @@ header h1 {
   width: 680px;
 }
 
-header h2 {
-  color: #FED247;
-  font-size: 3.5em;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+/*
++----------------------------------------------------------------+
+  Content
++----------------------------------------------------------------+
+*/
+#content {
 }
 
-header h3 {
+.button-talk-to-us {
+  background: url("../images/bg-botao-fale-conosco.png");
+  color: #5E4E15;
+  height: 61px;
+  width: 232px;
+  line-height: 61px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button-talk-to-us,
+.button-learn-more,
+#presentation .call-to-action span {
+  display: block;
   font-size: 2em;
-  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*
++----------------------------------------------------------------+
+  Presentation
++----------------------------------------------------------------+
+*/
+
+#presentation-holder {
+  background: url("../images/background-presentation.png") repeat-x left bottom;
 }
 
 #workflow {
+  clear: both;
   list-style: none;
-  margin-top:60px;
+  overflow: hidden;
+  margin:60px 0 50px;
 }
 
 #workflow li {
@@ -74,6 +117,7 @@ header h3 {
   float: left;
   margin-right: 42px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #workflow #online-app {
@@ -134,12 +178,50 @@ header h3 {
   margin-top: 23px;
 }
 
-/*
-+----------------------------------------------------------------+
-  Content
-+----------------------------------------------------------------+
-*/
-
-#content {
-
+#presentation {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 50px;
 }
+
+#presentation h2,
+#presentation h3 {
+  text-align: center;
+}
+
+#presentation .call-to-action {
+  margin: 30px auto;
+  width: 440px;
+}
+
+#presentation .call-to-action a,
+#presentation .call-to-action span {
+  float: left;
+}
+
+#presentation .call-to-action span {
+  font-size: 1.7em;
+  margin: 18px 20px 0;
+}
+
+.button-learn-more {
+  background: url("../images/underline-saibamais.png") no-repeat left bottom;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 14px;
+  padding-bottom: 5px;
+  width: 135px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
