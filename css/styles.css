@@ -1,0 +1,145 @@
+/*
++----------------------------------------------------------------+
+  Common
++----------------------------------------------------------------+
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url("../images/background-pattern.jpg");
+}
+
+body {
+  background: url("../images/line-top.png") repeat-x;
+  color: #FFF;
+  font: 62.5% Arial, Helvetica, sans-serif;
+}
+
+img {
+  border: none;
+}
+
+/*
++----------------------------------------------------------------+
+  Wrapper
++----------------------------------------------------------------+
+*/
+#wrapper {
+  margin: 0 auto;
+  padding: 12px 0 0;
+  width: 960px;
+}
+
+/*
++----------------------------------------------------------------+
+  header
++----------------------------------------------------------------+
+*/
+header {
+  height:250px;
+  text-align: center;
+}
+
+header h1 {
+  background: url("../images/startup-dev.png");
+  height: 150px;
+  margin: 60px auto 50px;
+  text-indent: -9000px;
+  width: 680px;
+}
+
+header h2 {
+  color: #FED247;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+header h3 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+#workflow {
+  list-style: none;
+  margin-top:60px;
+}
+
+#workflow li {
+  display: block;
+  font-size: 1.4em;
+  float: left;
+  margin-right: 42px;
+  text-transform: uppercase;
+}
+
+#workflow #online-app {
+  margin-right:0;
+}
+
+#workflow li div {
+  background: url("../images/workflow.png");
+  margin: 0 auto 20px;
+}
+
+#workflow #idea div {
+  background-position: -7px -10px;
+  height: 78px;
+  width: 47px;
+}
+
+#workflow .plus div {
+  background-position: -67px -32px;
+  height: 36px;
+  width: 36px;
+}
+
+#workflow #team div {
+  background-position: -117px -10px;
+  height: 79px;
+  width: 67px;
+}
+
+#workflow #time div {
+  background-position: -209px -10px;
+  height: 83px;
+  margin-bottom: 15px;
+  width: 73px;
+}
+
+#workflow #investment div {
+  background-position: -312px -13px;
+  height: 75px;
+  width: 80px;
+}
+
+#workflow #equals div {
+  background-position: -412px -32px;
+  height: 27px;
+  width: 36px;
+}
+
+#workflow #online-app div {
+  background-position: -464px -10px;
+  height: 79px;
+  margin-bottom: 13px;
+  width: 91px;
+}
+
+#workflow .plus div,
+#workflow #equals div {
+  margin-top: 23px;
+}
+
+/*
++----------------------------------------------------------------+
+  Content
++----------------------------------------------------------------+
+*/
+
+#content {
+
+}
