@@ -244,6 +244,7 @@ header h1 {
 #presentation {
   clear: both;
   overflow: hidden;
+  margin-bottom: 110px;
   padding-bottom: 50px;
 }
 
@@ -276,10 +277,71 @@ header h1 {
   width: 135px;
 }
 
+/*
++----------------------------------------------------------------+
+  Developed projects
++----------------------------------------------------------------+
+*/
 
+#developed-projects {
+}
 
+#developed-projects h2 {
+  margin-bottom: 60px;
+}
 
+#developed-projects-slider {
+  position: relative;
+}
 
+#slider-next,
+#slider-previous {
+  background: url("../images/arrows.png") left top;
+  display:block;
+  height: 70px;
+  position: absolute;
+  top: 200px;
+  text-indent: -9000px;
+  width: 71px;
+}
+
+#slider-next {
+  background-position: top right;
+  right: -40px;
+}
+
+#slider-previous {
+  left: -70px;
+}
+
+#developed-projects-slider ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 890px;
+}
+
+#developed-projects-slider li {
+  float: left;
+  margin: 0 30px 30px 0;
+  text-align: center;
+}
+
+#developed-projects-slider li h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+#developed-projects-slider li a {
+  padding: 3px;
+  display: block;
+}
+
+#developed-projects-slider li a:hover {
+ border: 3px solid #FED247;
+ padding: 0;
+}
 
 
 
