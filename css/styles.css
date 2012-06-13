@@ -68,6 +68,69 @@ header h1 {
 
 /*
 +----------------------------------------------------------------+
+  Menu
++----------------------------------------------------------------+
+*/
+
+#menu {
+  position: fixed;
+  left: 0;
+  top: 50%;
+}
+
+#menu li {
+  background: url("../images/bg-nav.jpg") left bottom;
+  display: block;
+  margin-bottom: 2px;
+  float:left;
+  clear: left;
+  overflow: hidden;
+}
+
+#menu li a {
+  background: url("../images/menu.png") no-repeat;
+  color: #5F4C13;
+  display: block;
+  text-decoration: none;
+  font-size: 2.2em;
+  font-weight: bold;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+#menu li#home a {
+  background-position: 94px 12px;
+  padding-right: 60px;
+  margin-left: -80px;
+}
+
+#menu li#projects a {
+  background-position: 148px -43px;
+  padding-right: 64px;
+  margin-left: -137px;
+}
+
+#menu li#what-is-it a {
+  background-position: 138px -103px;
+  padding-right: 63px;
+  margin-left: -127px;
+}
+
+#menu li#contact a {
+  background-position: 132px -159px;
+  padding-right: 61px;
+  margin-left: -119px;
+}
+
+#menu li#home a:hover,
+#menu li#projects a:hover,
+#menu li#what-is-it a:hover,
+#menu li#contact a:hover {
+  margin-left: 0;
+}
+
+/*
++----------------------------------------------------------------+
   Content
 +----------------------------------------------------------------+
 */
