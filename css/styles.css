@@ -18,6 +18,12 @@ body {
   font: 62.5% Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-size: 1.2em;
+  line-height: 1.4;
+  margin: 1em 0;
+}
+
 img {
   border: none;
 }
@@ -176,7 +182,7 @@ header h1 {
 
 #workflow li {
   display: block;
-  font-size: 1.4em;
+  font-size: 1.2em;
   float: left;
   margin-right: 42px;
   text-transform: uppercase;
@@ -284,6 +290,7 @@ header h1 {
 */
 
 #developed-projects {
+  margin-bottom: 50px;
 }
 
 #developed-projects h2 {
@@ -317,6 +324,7 @@ header h1 {
 #developed-projects-slider ul {
   list-style: none;
   margin: 0 auto;
+  overflow:hidden;
   width: 890px;
 }
 
@@ -343,7 +351,99 @@ header h1 {
  padding: 0;
 }
 
+/*
++----------------------------------------------------------------+
+  Testimonials
++----------------------------------------------------------------+
+*/
 
+#testimonials-holder {
+  background: url("../images/background-presentation.png");
+}
+
+#testimonials {
+  padding: 30px 0 20px 0;
+  position: relative;
+}
+
+#testimonials h2 {
+  margin: 0 0 20px 103px;
+}
+
+#testimonials nav {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  text-transform: uppercase;
+}
+
+#testimonial-previous,
+#testimonial-next {
+  background: url("../images/yellow-arrow.png");
+  display: block;
+  height: 40px;
+  text-indent: -9000px;
+  width: 41px;
+}
+
+#testimonial-next {
+  background-position: right top;
+}
+
+#testimonials nav a,
+#testimonials nav span {
+  float: left;
+  margin-right: 3px;
+}
+#testimonials nav span {
+  font-size: 1.4em;
+  margin: 15px 15px 0 0;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+  padding: 0 80px 0 100px;
+  position: relative;
+}
+
+.testimonial p {
+  font-size: 1.4em;
+}
+
+.testimonial-author,
+.testimonial-project {
+  font-weight: bold;
+  margin: 0;
+}
+
+.testimonial-project {
+  color: #FED247;
+}
+
+.begin-quote,
+.end-quote {
+  background: url("../images/quote-sprite.png") left top;
+  display: block;
+  position: absolute;
+  height: 52px;
+  text-indent: -9000px;
+  width:72px;
+}
+
+.begin-quote {
+  left: 0;
+  top: 0;
+}
+
+.end-quote {
+  background-position: right top;
+  right: 0;
+  bottom: 0;
+}
+
+#testimonials .button-talk-to-us {
+  margin: 0 auto -40px;
+}
 
 
 
